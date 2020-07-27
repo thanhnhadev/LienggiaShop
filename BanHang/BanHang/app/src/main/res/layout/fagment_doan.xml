@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <LinearLayout
+        android:id="@+id/ll_signin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:visibility="visible"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/doan" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ten"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="Đồ Án Cơ Sở"
+                android:textColor="#111"
+                android:textSize="20dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:orientation="horizontal">
+                <TextView
+                    android:textSize="17dp"
+                    android:textColor="#111"
+                    android:text="Giáo viên hướng dẫn :"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="17dp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#111"
+                    android:text="Nguyễn Mạnh Hùng"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:textSize="17dp"
+                    android:textColor="#111"
+                    android:text="Sinh Viên Thực Hiện :"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="17dp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#111"
+                    android:text="Nguyễn Trương Thanh Nhã"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:textSize="17dp"
+                    android:layout_gravity="center"
+                    android:textColor="#111"
+                    android:text="Liên Hệ                       :"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginLeft="15dp"
+                    android:textSize="17dp"
+                    android:textColor="#111"
+                    android:text="thanhnhadev@gmail.com"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+                <TextView
+                    android:id="@+id/tvtest"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <!--<LinearLayout-->
+
+                <!--android:orientation="vertical"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent">-->
+                <!--<TextView-->
+                    <!--android:gravity="center"-->
+                    <!--android:textColor="@color/back"-->
+                    <!--android:text="quản cáo "-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent" />-->
+            <!--</LinearLayout>-->
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

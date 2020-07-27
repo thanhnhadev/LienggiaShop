@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/san_pham"
+            android:icon="@drawable/store"
+            android:title="Tấc Cả Bài Viết" />
+
+        <item
+            android:id="@+id/baiviet"
+            android:icon="@drawable/people"
+            android:title="Tạo Bài Viết" />
+
+    </group>
+    <item android:title="Thông tin ">
+        <menu>
+           <item
+               android:icon="@drawable/menu_account"
+               android:id="@+id/nav_account"
+               android:title="Tài khoản"/>
+
+
+        </menu>
+    </item>
+    <item android:title="Xuất Bản">
+        <menu>
+            <item
+                android:id="@+id/nav_thongtin"
+                android:icon="@drawable/infor"
+                android:title="Thông Tin Ứng Dụng " />
+            <item
+                android:id="@+id/doan"
+                android:icon="@drawable/security"
+                android:title="Đồ Án" />
+        </menu>
+    </item>
+
+
+
+</menu>
